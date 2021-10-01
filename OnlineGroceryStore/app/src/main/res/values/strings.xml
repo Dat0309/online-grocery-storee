@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Siêu thị trực tuyến</string>
+    <string name="description">mua sắm các mặt hàng tạp hóa thông qua ứng dụng siêu thị trực tuyến với giá tốt nhất</string>
+    <string name="hint_search">Tìm kiếm</string>
+    <string name="discount_item">Sản phẩm giảm giá</string>
+    <string name="category">Chuyên mục sản phẩm</string>
+    <string name="recently">Sản phẩm thịnh hành</string>
+</resources>
