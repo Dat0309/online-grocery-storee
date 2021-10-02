@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
 
 import com.dinhtrongdat.onlinegrocerystore.adapter.CategoryAdapter;
 import com.dinhtrongdat.onlinegrocerystore.adapter.DiscounterAdapter;
@@ -51,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements DiscounterAdapter
     ArrayList<DiscounterProduct> listDiscounter;
     ArrayList<Category> listCategory;
     ArrayList<Recently> listRecently;
+    ImageButton btnCategory;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +65,14 @@ public class MainActivity extends AppCompatActivity implements DiscounterAdapter
     }
 
     private void initUI() {
+        btnCategory = findViewById(R.id.btnCategory);
+        btnCategory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, GridCategory.class));
+            }
+        });
+
         discounterRecycle = findViewById(R.id.recycle_discount);
         listDiscounter = new ArrayList<>();
         for (int i=0;i<ids.length; i++){
