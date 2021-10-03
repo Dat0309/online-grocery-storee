@@ -4,3 +4,4 @@
 ![image](https://github.com/Dat0309/online-grocery-storee/blob/main/screenupdate.png)
 ![image](https://github.com/Dat0309/online-grocery-storee/blob/main/AppBarScroll.png)
 ![image](https://github.com/Dat0309/online-grocery-storee/blob/main/AllCategory.png)
+![image](https://github.com/Dat0309/online-grocery-storee/blob/main/Chitiet.png)
